@@ -6,7 +6,40 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `phocks - blog`,
+    // Used for the title template on pages other than the index site
+    siteTitle: `phocks`,
+    // Default title of the page
+    siteTitleAlt: `phocks`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `a blog`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://blog.phocks.org`,
+    // Used for SEO
+    siteDescription: `Some kind of blog`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@phocks`,
+    // Links displayed in the header on the right side
+    externalLinks: [
+      {
+        name: `Twitter`,
+        url: `https://twitter.com/phocks`,
+      },
+      {
+        name: `Instagram`,
+        url: `https://www.instagram.com/phocks/`,
+      },
+    ],
+    // Navigation links
+    navigation: [
+      {
+        title: `Blog`,
+        slug: `/blog`,
+      },
+    ],
   },
   plugins: [
     {
