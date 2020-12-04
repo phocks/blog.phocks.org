@@ -13,8 +13,8 @@ type SEOProps = {
 }
 
 const SEO = ({
-  title = ``,
-  description = ``,
+  title = `phocks: a blog`,
+  description = `the blog of joshua byrd`,
   pathname = ``,
   image = ``,
   children = null,
