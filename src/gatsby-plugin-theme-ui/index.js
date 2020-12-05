@@ -41,6 +41,9 @@ const theme = merge(tailwind, {
     img: {
       maxWidth: `100%`,
     },
+    iframe: {
+      maxWidth: `100% !important`,
+    },
     p: {
       fontSize: [1, 1, 2],
       letterSpacing: `-0.003em`,

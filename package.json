@@ -25,6 +25,8 @@
     "gatsby-plugin-sitemap": "^2.5.1",
     "gatsby-plugin-twitter": "^2.6.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.13",
+    "gatsby-remark-copy-linked-files": "^2.6.0",
+    "gatsby-transformer-remark": "^2.12.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
